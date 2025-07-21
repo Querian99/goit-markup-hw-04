@@ -241,8 +241,6 @@ url(../images/people-office.jpg)
 
 .advantages-list-item {
     width: calc((100% - 72px) / 4);
-    border: 1px solid #8E8F99;
-    background:#F4F4FD;
     border-radius: 4px;
 
 }
@@ -523,6 +521,9 @@ margin-right: 76px;
     
 }
 
+.background-social {
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .logo-icon-footer {
     display: flex;
@@ -534,7 +535,7 @@ margin-right: 76px;
     gap: 16px;
     background-color: var(--primary-brand);
     border-radius: 50%;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .logo-icon-footer:hover,
