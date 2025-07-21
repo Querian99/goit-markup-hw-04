@@ -521,10 +521,6 @@ margin-right: 76px;
     
 }
 
-.background-social {
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .logo-icon-footer {
     display: flex;
     justify-content: center;
@@ -536,19 +532,19 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--primary-brand);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .logo-icon-footer:hover,
 .logo-icon-footer:focus {
     background-color: #31d0aa;
-    border-radius: 50%;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon:active {
 background-color: #31d0aa;
 }
+
+
 
 
 
