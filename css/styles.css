@@ -364,14 +364,16 @@ url(../images/people-office.jpg)
 }
 
 .logo-icon:hover,
-.logo-icon:focus,
-.logo-icon:active  {
+.logo-icon:focus {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color:#404BBF;
 } 
 
+.logo-icon:active {
+    background-color: #404bbf;
+}
 
 .logo-icon {
     display: flex;
@@ -536,11 +538,14 @@ margin-right: 76px;
 }
 
 .logo-icon-footer:hover,
-.logo-icon-footer:focus,
-.logo-icon-footer:active {
+.logo-icon-footer:focus {
     background-color: #31d0aa;
     border-radius: 50%;
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-icon-footer:active {
+background-color: #31d0aa;
 }
 
 
